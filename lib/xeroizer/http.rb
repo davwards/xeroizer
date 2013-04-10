@@ -100,7 +100,9 @@ module Xeroizer
           if self.logger
             logger.info("XeroGateway Response (#{response.code})")
             unless response.code.to_i == 200
-              logger.info("#{uri.request_uri}\n== Response Body\n\n#{response.plain_body}\n== End Response Body")
+              logger.info("== #{uri.request_uri} Response Body \n\n #{response.plain_body} \n == End Response Body")
+            else
+              logger.debug("== #{uri.request_uri} Response Body \n\n #{response.plain_body} \n == End Response Body")
             end
           end
 
