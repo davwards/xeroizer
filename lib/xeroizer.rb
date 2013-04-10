@@ -21,7 +21,9 @@ require 'xeroizer/http'
 require 'xeroizer/exceptions'
 
 require 'xeroizer/record/base_model'
+require 'xeroizer/record/payroll_base_model'
 require 'xeroizer/record/base'
+require 'xeroizer/record/payroll_base'
 require 'xeroizer/configuration'
 
 # Include models
@@ -58,6 +60,10 @@ require 'xeroizer/models/tracking_category_child'
 require 'xeroizer/models/user'
 require 'xeroizer/models/journal_line_tracking_category'
 
+require 'xeroizer/models/payroll/home_address'
+require 'xeroizer/models/payroll/bank_account'
+require 'xeroizer/models/payroll/employee'
+
 require 'xeroizer/report/factory'
 
 require 'xeroizer/response'
@@ -66,3 +72,4 @@ require 'xeroizer/generic_application'
 require 'xeroizer/public_application'
 require 'xeroizer/private_application'
 require 'xeroizer/partner_application'
+require 'xeroizer/payroll_application'
