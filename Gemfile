@@ -17,4 +17,5 @@ group :test do
   gem "ansi"
   gem "redcarpet"
   gem 'yard'
+  gem 'pry'
 end

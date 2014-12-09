@@ -12,7 +12,7 @@ require 'time'
 require 'bigdecimal'
 require 'cgi'
 
-$: << File.expand_path(File.dirname(__FILE__)) 
+$: << File.expand_path(File.dirname(__FILE__))
 
 require 'big_decimal_to_s'
 require 'class_level_inheritable_attributes'
@@ -61,6 +61,7 @@ require 'xeroizer/models/payroll/home_address'
 require 'xeroizer/models/payroll/bank_account'
 require 'xeroizer/models/payroll/employee'
 require 'xeroizer/models/payroll/pay_schedule'
+require 'xeroizer/models/payroll/pay_run'
 
 require 'xeroizer/report/factory'
 
